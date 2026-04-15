@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:ext": "bash ./scripts/build-ext.sh",
     "lint": "eslint .",
     "format": "prettier --write .",
     "preview": "vite preview"
@@ -19,6 +20,7 @@
     "@ui5/webcomponents-react": "^2.20.0",
     "axios": "^1.13.6",
     "dayjs": "^1.11.20",
+    "oidc-client-ts": "^3.5.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-hook-form": "^7.71.2"

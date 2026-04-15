@@ -1,0 +1,10 @@
+_schema-version: "3.2"
+ID: interbank-web-ext
+version: 1.0.9
+provider: Fast Track SBOi Sdn Bhd
+modules:
+  - name: Interbank
+    type: single-page-app
+    path: dist
+parameters:
+  deploy_mode: b1-webclient
